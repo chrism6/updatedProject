@@ -1,0 +1,63 @@
+html,body{
+    padding: 0;
+  margin: 0;
+}
+body{
+    background-color: cadetblue;
+}
+#home{
+    background-color: beige;
+   font-family: sans-serif;
+       
+       position: fixed;
+  
+ 
+   display: flex;
+  gap: 1065px;
+   align-items: center;
+   }
+   
+   #home h1{
+ font-size: medium;
+       color: brown;
+     
+   }
+   #nav a{
+ 
+       color: navy;
+ 
+   }
+   #text1{
+       /* width: 400px; */
+       margin: 0 auto;
+       flex-flow: row wrap;
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+       align-items: center;
+       gap: 10px;
+       
+   
+     
+       
+   }
+   .content1{
+       display: flex;
+     background-color: white;
+     flex-flow: row wrap;
+    border: 1px solid black;
+     justify-content: space-around;
+   padding: 20px;
+  width: 300px;
+  line-height: 15px;
+  margin-top: 80px;
+   }
+   div h3{
+       background-color: burlywood;
+       text-align: center;
+       padding: 2px;
+      
+     
+   }
+   
+   
